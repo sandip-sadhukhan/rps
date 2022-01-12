@@ -1,0 +1,41 @@
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #6c5ce7;
+}
+.header-h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+#waiting-ui {
+  display: none;
+}
+#game-ui {
+  display: none;
+}
+#opponent-done {
+  display: none;
+}
+#opponent-choice {
+  display: none;
+}
+#opponent-image {
+  transform: scaleX(-1);
+}
+
+.choice {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.choice:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-h1 {
+    font-size: 2rem !important;
+    margin: 10px !important;
+  }
+}
