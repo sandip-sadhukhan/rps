@@ -28,3 +28,11 @@ $ redis-server
 $ django manage.py migrate
 $ django mange.py runserver
 ```
+
+**Demo:**
+
+
+
+https://github.com/sandippakhanna/real_time_rock_paper_scissors_game/assets/44361140/61585068-dace-4725-b121-8ca9cbb6e715
+
+
